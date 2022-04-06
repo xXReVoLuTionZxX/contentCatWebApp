@@ -1,7 +1,8 @@
-#To proper function this app requires twitter developer keys.
+#To proper function this app twitter developer keys are needed. 
 Twitter provides them using the following link 
 https://developer.twitter.com/en 
-#inside ./env/local they should be stored as a variable
+Create a file called ./env/local
+#inside ./env/local the keys should be stored as the following variables 
 FOR example 
 CONSUMER_KEY="12345678"
 CONSUMER_SECRET="12345678"
