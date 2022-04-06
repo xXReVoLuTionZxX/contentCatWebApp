@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "icon" href = "./Logos/ContentCat-Logo-(web)-R2.png" type = "image/x-icon">
+  <link rel="stylesheet" href="./static/CSS/main_style.css">
+  <link rel="stylesheet" href="./static/CSS/computer.css">
+  <link rel="stylesheet" href="./static/CSS/tablet.css">
+  <link rel="stylesheet" href="./static/CSS/mobile.css">
+  <link rel="stylesheet" href="./static/CSS/no_size.css">
+  <title>ContentCat:Description</title>
+</head>
+<body>
+
+  <header>
+    <div id="navigation-bar">     
+      <div id="logo">
+        <h1 class="logo"><a href="./"><!--ContentCat--></a></h1>
+      </div> 
+
+        <div class="dropdown-bar">
+          <span id="menu">Menu</span>              
+          <ul class='dropdown-content'>
+            <li><a href="./">Home</a></li>
+            <li class="current"><a href="./description">Description</a></li>
+            <li><a href="./faq">Faq</a></li>
+            <li><a href="./suggestions">Suggestions</a></li>
+          </ul>     
+        </div> 
+        <!-- End of drop-bar bar -->
+
+    </div>  
+    
+    <div class="description-content">
+      <p>
+        ContentCat is a WebApp designed to determine the ideology
+        of a Twitter User Account and assign that user as a left,
+        center or right type of ideology.
+      </p>
+    </div> 
+    
+    <div id="background-image">    
+      <div id="background-logo"></div> <br>
+     <p id="screen-requirements-1">Requires a bigger screen</p>
+     <p id="screen-requirements-2">Requires a smaller screen</p>
+    </div>
+
+  </header>
+  
+  
+</body>
+</html>

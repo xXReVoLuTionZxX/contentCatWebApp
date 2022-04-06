@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = "./static/Logos/ContentCat-Logo-(web)-R2.png" type = "image/x-icon">
+    <link rel="stylesheet" href="./static/CSS/main_style.css">
+    <link rel="stylesheet" href="./static/CSS/computer.css">
+    <link rel="stylesheet" href="./static/CSS/tablet.css">
+    <link rel="stylesheet" href="./static/CSS/mobile.css">
+    <link rel="stylesheet" href="./static/CSS/small_device.css">
+    <link rel="stylesheet" href="./static/CSS/no_size.css">
+
+    <title>ContentCat: What's your ideology</title>
+</head>
+
+<body>
+    
+    <header>
+        <div id="navigation-bar">     
+          <div id="logo">
+            <h1 class="logo"><a href="home.html"><!--ContentCat--></a></h1>
+          </div> 
+    
+            <div class="dropdown-bar">
+              <span id="menu">Menu</span>              
+              <ul class='dropdown-content'>
+                <li><a href="./">home</a></li>
+                <li><a href="description">Description</a></li>
+                <li><a href="faq">Faq</a></li>
+                <li><a href="suggestions">Suggestions</a></li>
+              </ul>     
+            </div> 
+            <!-- End of drop-bar bar -->
+
+        </div>
+
+
+            <div class="result-content">
+                <!-- <p id="result-title"> The ideology of the Twitter user is: </p>   -->
+
+                <div class="user-photo">
+                   <div id="username-photo">
+				   <!--<img src="../static/user.jpg?<?php echo time(); ?>" />-->
+				   <!-- <img src="{{url_for('static', filename = 'ProfilePicture/user.jpg?{{x}}')}}"width=150 height=150> -->
+				   <img src="/static/ProfilePicture/user.jpg?{{x}}" alt ="" width=200 height=200 class="center">
+                   </div>
+                </div>
+
+                <div id="user-username">
+                  <div id="username">
+				  
+				  <h1> {{data}} </h1>
+
+                  </div>
+                </div>
+                    
+                <div id="ideology-title">
+                  <p> This Twitter User has the following ideology: </p>
+                </div>
+
+                <div class="result-ideology">
+
+
+                    <div id="left">
+                        
+                    </div>
+                    
+                    <div id="center">
+                        
+                    </div>
+                    
+                    <div id="right" class="final-result">
+                        
+                        
+                    </div>              
+                                  
+                </div> <!-- End of Result Ideology class  -->
+
+
+
+                <div class="result-words">
+
+
+                  <div>
+                      <p id=left-word>Left</p>
+                  </div>
+                  
+                  <div>
+                      <p id=center-word>Center</p>
+                  </div>
+                  <div>
+                    <p id=right-word>Right</p>                                        
+                  </div>              
+                                
+              </div> <!-- End of Result Ideology class  -->
+
+
+
+                <p id="check-another"> <a href="./">Check another Twitter User Ideology</a> </p> 
+
+            </div> <!-- End of Result Content class  -->
+
+            
+
+            <div id="background-image">    
+                <div id="background-logo"></div> <br>
+               <p id="screen-requirements-1">Requires a bigger screen</p>
+               <p id="screen-requirements-2">Requires a smaller screen</p>
+              </div>
+         
+           </header>
+    
+       
+
+
+
+
+</body>
+</html>

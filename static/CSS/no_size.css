@@ -1,0 +1,150 @@
+@media (max-width:319px)
+{
+  #navigation-bar
+  {
+    display:none;
+  }
+
+  .page-content
+  {
+    display: none;
+  }
+
+  .description-content 
+  {
+    display:none;
+  }
+
+  .faq-content
+  {
+    display:none;
+  }
+
+  .suggestions-content
+  {
+    display:none;
+  }
+
+
+  #background-image
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 1; */
+    width: 100%;
+    height: 100%;
+  }
+  #background-image #background-logo
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background: url('../Logos/ContentCat\ Logo-01.png') no-repeat center/cover;
+    margin: 100px 0;
+  }
+
+  #background-image #screen-requirements-1
+  {
+    height: 22%;
+    width: 70%;
+    font-size: 40pt;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.7;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #background-image #screen-requirements-2 
+  {
+    display:none;
+  }
+
+}
+
+
+@media (min-width:2001px)
+{
+  body 
+  {
+    z-index: -1;
+  }
+
+  #navigation-bar
+  {
+    display:none;
+  }
+
+  .page-content
+  {
+    display:none;
+  }
+
+  .description-content 
+  {
+    display:none;
+  }
+
+  .faq-content
+  {
+    display:none;
+  }
+
+  .suggestions-content
+  {
+    display:none;
+  }
+
+
+  #background-image
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 1; */
+    width: 100%;
+    height: 100%;
+  }
+  #background-image #background-logo
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+    background: url('../Logos/ContentCat\ Logo-01.png') no-repeat center/cover;
+  }
+
+
+  #background-image #screen-requirements-1 
+  {
+    display:none;
+  }
+
+  #background-image #screen-requirements-2
+  {
+    height: 30%;
+    width: 50%;
+    font-size: 80pt;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.7;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+}
